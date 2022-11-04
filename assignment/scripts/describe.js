@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and we set it to Dane 
+// We check if the variable is strict equality to Mary
+// If it is we console log 'Hi Mary'
+//If it isnt we console log 'How do you do?'
 
 //CODE
 /*
@@ -70,9 +70,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We have 3 variables, IsStudent which has a boolean of true, Age is 24, & Zipcode that is 55407
+// if the variable IsStudent is true & the zip variable is greater than 80000, console log 'Youre a student on the West Coast" 
+// Instead If the variable student is not true
 //
 
 //CODE
