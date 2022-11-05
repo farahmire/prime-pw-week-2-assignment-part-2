@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and we set it to Dane 
-// We check if the variable is strict equality to Mary
-// If it is we console log 'Hi Mary'
-//If it isnt we console log 'How do you do?'
+// We check if the variable is exact match to Mary
+// If it is we console log 'Hi Mary!'
+// If it isnt we console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Fist thing is we looking for what secret is being declared as
+// The variable code is declared as 123
+// If code is exact match to 123 secret would be 'super' & code would equal the code (123) multiplied by 2
+// If the code (123) is greater than 250 secret would equal "duper"
+// Last line console logs what secret is 
 
 //CODE
 /*
@@ -71,9 +72,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We have 3 variables, IsStudent which has a boolean of true, Age is 24, & Zipcode that is 55407
-// if the variable IsStudent is true & the zip variable is greater than 80000, console log 'Youre a student on the West Coast" 
-// Instead If the variable student is not true
-//
+// if the variable IsStudent is true & the zip variable is greater than 80000 (both sides must be true), console log 'Youre a student on the West Coast" 
+// If the variable student is false or the age is less than 30, console log "what are your hobbies"
+// if the variable isStudent is exactly true, console log "Welcome to Prime!"
+// Lastly If the rest dont work out console log "How about the weather"
 
 //CODE
 /*
@@ -121,7 +123,8 @@ if (number >= 2) {
   console.log('yes');
 }
 
-*/
+*/ 
+
 
 
 
@@ -133,6 +136,8 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+//The fix would be the last if statement should be set to colorOne= 'purple'; and colorTwo= 'purple';
 
 if (mix === true) {
   colorOne = 'purple';
@@ -150,6 +155,9 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+// The fix would be changing the 'or' (||) value  to 'and' (&&)
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -165,5 +173,8 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+// The fix would be first changing 
+
 */
 
