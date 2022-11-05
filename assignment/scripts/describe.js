@@ -126,8 +126,6 @@ if (number >= 2) {
 */ 
 
 
-
-
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
@@ -174,7 +172,11 @@ if(minAge <= age) {
   console.log('enter');
 }
 
-// The fix would be first changing 
+// The fix would be first changing <= (less than or equal) to >= (greater than or equal to).
+If(age >= minAge)
+Then we would just console.log per the instruction, the else statement is not needed. Leaving you with this below.
 
+If(age >= minAge)
+console.log('enter');
 */
 
