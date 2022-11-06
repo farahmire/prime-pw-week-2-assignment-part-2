@@ -139,6 +139,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -174,7 +175,7 @@ if(minAge <= age) {
 
 // The fix would be first changing <= (less than or equal) to >= (greater than or equal to).
 If(age >= minAge)
-Then we would just console.log per the instruction, the else statement is not needed. Leaving you with this below.
+Then we would just console.log per the instruction, the else statement is not needed and console log 'not enter" is not needed. Leaving you with this below.
 
 If(age >= minAge)
 console.log('enter');
