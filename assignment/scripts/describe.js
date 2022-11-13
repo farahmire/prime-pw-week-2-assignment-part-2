@@ -31,6 +31,8 @@ if (number >= 2) {
 // If it is we console log 'Hi Mary!'
 // If it isnt we console log 'How do you do?'
 
+// This case we console log 'How do you do?'
+
 //CODE
 /*
 let name = 'Dane';
@@ -50,6 +52,8 @@ if (name === 'Mary') {
 // If code is exact match to 123 secret would be 'super' & code would equal the code (123) multiplied by 2
 // If the code (123) is greater than 250 secret would equal "duper"
 // Last line console logs what secret is 
+
+// This case we would log 'super'
 
 //CODE
 /*
@@ -76,6 +80,8 @@ console.log(secret)
 // If the variable student is false or the age is less than 30, console log "what are your hobbies"
 // if the variable isStudent is exactly true, console log "Welcome to Prime!"
 // Lastly If the rest dont work out console log "How about the weather"
+
+// This case we log "Welcome to prime"
 
 //CODE
 /*
@@ -136,6 +142,8 @@ let colorTwo = 'blue';
 let mix = true;
 
 //The fix would be the last if statement should be set to colorOne= 'purple'; and colorTwo= 'purple';
+
+// Also the values in the beginning variable statement are switched . 
 
 if (mix === true) {
   colorOne = 'purple';
